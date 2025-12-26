@@ -13,6 +13,9 @@ const DashboardLayout = () => {
           
         </main>
       </div>
+      <div className="chart-support"  data-toggle="tooltip" data-placement="top" title="chat support">
+          <i class="bi bi-chat-dots"></i>
+      </div>
     </div>
   )
 }

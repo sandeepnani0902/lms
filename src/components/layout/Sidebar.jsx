@@ -35,7 +35,7 @@ const Sidebar = () => {
         {isopen && <h6 className="m-0">Dashboard</h6>}
 
         <button
-          className="btn text-white"
+          className={ theme === "dark" ? "btn text-white" :"btn text-black"}
           onClick={() => setIsOpen(prev => !prev)}
         >
           <i className={`bi ${isopen ? 'bi-chevron-left' : 'bi-chevron-right'}`} />
